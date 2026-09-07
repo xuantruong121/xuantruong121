@@ -3,7 +3,7 @@
 # Hi, I'm Xuan Truong 👋
 
 **Software Engineering Student @ IUH | Fullstack Developer Intern**  
-Building production-ready backend systems, modular architectures, and cross-platform applications.
+Building production-ready backend systems, modular software architectures, and cloud-deployed applications.
 
 📍 Go Vap District, Ho Chi Minh City, Vietnam
 
@@ -18,10 +18,10 @@ Building production-ready backend systems, modular architectures, and cross-plat
 
 ## 🎯 About Me
 
-Software Engineering senior at **Industrial University of Ho Chi Minh City (IUH)** with hands-on Fullstack experience across **Java Spring Boot 3**, **React 19**, and **React Native (Expo)**. Actively seeking a **Fullstack / Backend Developer Intern** role at an outsourcing or tech product company.
+Software Engineering senior at **Industrial University of Ho Chi Minh City (IUH)** with hands-on experience as the sole Backend and DevOps engineer behind live commercial platforms (such as [totobarbershop.vn](https://www.totobarbershop.vn/)), alongside robust fullstack systems built with **Java Spring Boot 3**, **React 19**, and **React Native (Expo)**. Actively seeking a **Fullstack / Backend Developer Intern** role at an outsourcing or tech product company.
 
 - **Academic Standing:** Software Engineering, IUH (Aug 2022 – Present) • Cumulative GPA: **3.19 / 4.0**
-- **Engineering Focus:** Modular Monolith & Hexagonal Architecture, Asymmetric JWT (RS256), Token Rotation with Redis, and Offline-first Mobile UX
+- **Engineering Focus:** Production Backend Engineering, Modular Monolith & Hexagonal Architecture, Asymmetric JWT (RS256), CI/CD Automation, Redis Caching & Rate Limiting, and Offline-first Mobile UX
 - **Documentation & Adaptability:** Comfortable reading English technical specifications, RFC standards, and API documentation; adaptable across different tech stacks and project requirements
 
 ---
@@ -30,14 +30,30 @@ Software Engineering senior at **Industrial University of Ho Chi Minh City (IUH)
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Backend** | `Java`, `Spring Boot 3`, `Spring Security`, `RESTful API`, `JPA / Hibernate`, `Hexagonal Architecture`, `Modular Monolith` |
-| **Frontend & Mobile** | `TypeScript`, `ReactJS (React 19)`, `React Native (Expo)`, `Ant Design`, `TanStack Query`, `Zustand`, `Platform View Splitter` |
-| **Databases & Cloud** | `MySQL`, `MongoDB`, `PostgreSQL`, `Redis` (Token rotation & cache), `AWS S3`, `Cloudinary` |
-| **DevOps & Tooling** | `Docker`, `Git / GitHub`, `Postman`, `Swagger / OpenAPI`, `VS Code`, `IntelliJ IDEA` |
+| **Backend** | `Java`, `Spring Boot 3`, `Node.js`, `Express.js`, `Prisma ORM`, `Spring Security`, `RESTful API`, `Hexagonal Architecture`, `Modular Monolith` |
+| **Frontend & Mobile** | `TypeScript`, `ReactJS (React 19)`, `React Native (Expo)`, `Tailwind CSS v4`, `Ant Design`, `Zustand`, `TanStack Query / Table` |
+| **Databases & Cloud** | `PostgreSQL 15`, `MySQL`, `MongoDB`, `Redis 7` (Cache & Rate Limiting), `AWS S3`, `Cloudinary`, `PayOS Payment Gateway` |
+| **DevOps & Infrastructure** | `Docker & Docker Compose`, `GitHub Actions (CI/CD)`, `Linux / Ubuntu VPS`, `Caddy v2 (Auto SSL/HTTPS)`, `Postman`, `Swagger / OpenAPI`, `VS Code`, `IntelliJ IDEA` |
 
 ---
 
 ## 🔥 Featured Projects
+
+### 💈 ToTo Barbershop — Barber. Culture. Craft.
+*Live Commercial Platform (Backend Developer & DevOps Lead) • Jul 2026 – Present*  
+**Website:** [totobarbershop.vn](https://www.totobarbershop.vn/)  
+**Backend Repository:** [github.com/toto-barbershop/toto-babershop-backend](https://github.com/toto-barbershop/toto-babershop-backend) • **Production API:** `https://160-30-157-229.sslip.io`
+
+Production e-commerce and booking platform for ToTo Barbershop, operating live at [totobarbershop.vn](https://www.totobarbershop.vn/). Solely responsible for the entire backend architecture, database modeling, payment integrations, and end-to-end VPS deployment pipeline.
+
+- **Full Backend Ownership:** Independently architected and implemented the complete RESTful backend using Express 5, TypeScript, and Prisma ORM on PostgreSQL 15; designed business flows for appointment bookings, multi-variant streetwear products, shopping carts, promo codes, and customer reviews.
+- **Security & Distributed Rate Limiting:** Enforced distributed rate-limiting via Redis 7 to protect authentication and checkout endpoints from abuse; implemented strict request schema validation via Zod, Helmet security headers, and bcrypt password hashing.
+- **Payment Gateway & Webhook Automation:** Integrated the PayOS payment gateway with automated QR-code checkout and verified IPN webhook signatures for atomic order state transitions and inventory integrity.
+- **Production DevOps & CI/CD on VPS:** Configured and maintained an Ubuntu 22.04 LTS VPS environment using Docker Compose and Caddy v2 (automated Let's Encrypt SSL/HTTPS); engineered a GitHub Actions CI/CD pipeline that automates Vitest testing, pre-deploy PostgreSQL backups (`pg_dump`), and zero-downtime container updates with health-check rollbacks.
+
+> **Tech Stack:** `Node.js` • `Express 5` • `TypeScript` • `Prisma ORM` • `PostgreSQL 15` • `Redis 7` • `PayOS` • `Docker Compose` • `Caddy (SSL)` • `Ubuntu VPS` • `GitHub Actions`
+
+---
 
 ### 🛒 SEBook — E-Commerce Bookstore Platform
 *Team Project (Auth & Account Lead) • Jan 2026 – Jun 2026*  
@@ -91,11 +107,12 @@ Comprehensive RESTful backend system designed to power mobile bookstore clients,
 
 ## 🌟 Key Engineering Highlights
 
-- **15 REST Controllers (Solo):** Independently architected end-to-end backend with N+1-free queries, atomic stock deduction, and VNPay HMAC-SHA512 payment integration (*HaiTeBooks*).
-- **Asymmetric JWT Security:** Implemented RS256-ready JWT auth, Hexagonal domain boundaries, and per-device Redis token reuse detection (*SEBook*).
-- **Shared Query Infrastructure:** Published unified `useApiQuery` / `useApiMutation` hooks adopted across 10+ feature modules by 4 team members (*SEBook*).
-- **Cross-Platform Architecture:** Engineered "Platform View Splitter" in Expo Router, STOMP WebSocket messaging, and 100-entry sliding window offline cache (*MiniZalo*).
-- **AI Vector Search:** Built non-blocking semantic search with Cohere Embed API and in-service cosine similarity ranking (*HaiTeBooks*).
+- **Commercial Production Backend & VPS Deployment (ToTo Barbershop — [totobarbershop.vn](https://www.totobarbershop.vn/)):** Sole backend and DevOps engineer for a live commercial platform; designed complete REST APIs and database with Express 5, Prisma, and PostgreSQL; built automated GitHub Actions CI/CD with database backups and zero-downtime Docker rollout on an Ubuntu VPS with Caddy auto-SSL.
+- **15 REST Controllers (HaiTeBooks):** Independently engineered end-to-end backend with N+1-free queries, atomic stock deduction, and VNPay HMAC-SHA512 signed payment integration.
+- **Asymmetric JWT Security (SEBook):** Implemented RS256-ready JWT auth, Hexagonal domain boundaries, and per-device Redis token reuse detection.
+- **Shared Query Infrastructure (SEBook):** Published unified `useApiQuery` / `useApiMutation` hooks adopted across 10+ feature modules by 4 team members.
+- **Cross-Platform Architecture (MiniZalo):** Engineered "Platform View Splitter" in Expo Router, STOMP WebSocket messaging, and 100-entry sliding window offline cache.
+- **AI Vector Search (HaiTeBooks):** Built non-blocking semantic search with Cohere Embed API and in-service cosine similarity ranking.
 
 ---
 
