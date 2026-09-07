@@ -5,7 +5,6 @@ Building production-ready backend systems, modular software architectures, and c
 
 📍 Go Vap District, Ho Chi Minh City, Vietnam
 
-[![Portfolio Demo](https://img.shields.io/badge/Live_Portfolio-xuantruong121.github.io-2563eb?style=flat-square)](https://xuantruong121.github.io/portfolio-software-engineer/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nguyen_Do_Xuan_Truong-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nguyen-do-xuan-truong-7865b7285/)
 [![Email](https://img.shields.io/badge/Email-xtruong121.work%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:xtruong121.work@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-xuantruong121-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xuantruong121)
@@ -135,23 +134,6 @@ HaiTeBooks is a comprehensive RESTful backend system built to power mobile books
 
 ---
 
-### 🌐 Personal Web Portfolio
-**Personal Project** | **Frontend & UI/UX** | **React 19** | **TypeScript** | **Vite** | **GitHub Pages**
-
-Interactive web portfolio showcasing my engineering projects, skills matrix, and professional background.
-
-- **Website:** [xuantruong121.github.io/portfolio-software-engineer](https://xuantruong121.github.io/portfolio-software-engineer/)
-- **Repository:** [xuantruong121](https://github.com/xuantruong121/xuantruong121)
-
-**Key Features:**
-- Custom Vanilla CSS dark glassmorphism design system with fluid typography and ambient glow
-- Smooth scroll reveals and micro-interactions powered by Framer Motion
-- Runtime dual-language switching (English / Vietnamese) via custom React Context
-- Fully responsive layout across mobile, tablet, and desktop
-- Automated static deployment workflow via GitHub Pages (`gh-pages`)
-
----
-
 ## 💪 Technical Skills
 
 ### Backend
@@ -188,7 +170,6 @@ Interactive web portfolio showcasing my engineering projects, skills matrix, and
 - Docker
 - Postman
 - Swagger / OpenAPI
-- GitHub Pages (`gh-pages`)
 - VS Code
 - IntelliJ IDEA
 
@@ -235,7 +216,6 @@ I'm actively seeking an **Intern role (Fullstack / Backend Developer)** at an ou
 - 📧 **Email:** [xtruong121.work@gmail.com](mailto:xtruong121.work@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/nguyen-do-xuan-truong-7865b7285](https://www.linkedin.com/in/nguyen-do-xuan-truong-7865b7285/)
 - 🐙 **GitHub:** [github.com/xuantruong121](https://github.com/xuantruong121)
-- 🌐 **Portfolio:** [xuantruong121.github.io/portfolio-software-engineer](https://xuantruong121.github.io/portfolio-software-engineer/)
 - 📱 **Phone:** (+84) 352 359 401
 - 📍 **Location:** Go Vap District, Ho Chi Minh City, Vietnam
 
