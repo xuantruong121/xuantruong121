@@ -10,7 +10,6 @@ Passionate about backend systems, clean architecture, and practical cloud deploy
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nguyen_Do_Xuan_Truong-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nguyen-do-xuan-truong-7865b7285/)
 [![Email](https://img.shields.io/badge/Email-xtruong121.work%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:xtruong121.work@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-xuantruong121-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xuantruong121)
-[![GPA](https://img.shields.io/badge/GPA-3.19%20%2F%204.0-059669?style=flat-square)](https://github.com/xuantruong121)
 
 </div>
 
@@ -22,7 +21,7 @@ Software Engineering student at **Industrial University of Ho Chi Minh City (IUH
 
 Comfortable working with **Java Spring Boot 3**, **NestJS / Node.js**, **Next.js**, **React 19**, and **React Native (Expo)**. Actively seeking a **Fullstack / Backend Developer Intern** role at a tech product or outsourcing company where I can contribute to production features and learn from senior engineers.
 
-- **Education:** Software Engineering, IUH (Aug 2022 – Present) • Cumulative GPA: **3.19 / 4.0**
+- **Education:** Software Engineering, IUH (Aug 2022 – Present)
 - **Technical Focus:** Backend API Development (Spring Boot 3, NestJS, Express), Database Modeling (PostgreSQL, MySQL), Authentication & Security (JWT, Redis token rotation), and Containerized Deployment (Docker, VPS)
 - **Mindset & Learning:** Comfortable reading English technical documentation, RFC specifications, and third-party API references; fast learner and adaptable across different project requirements
 
@@ -100,9 +99,9 @@ A complete RESTful backend system built to power mobile bookstore applications, 
 
 ## 🎓 Education
 
-| Institution | Degree & Major | Timeline | GPA | Location |
-| :--- | :--- | :--- | :--- | :--- |
-| **Industrial University of Ho Chi Minh City (IUH)** | Engineer's Degree in Software Engineering | Aug 2022 – Present | **3.19 / 4.0** | Ho Chi Minh City, Vietnam |
+| Institution | Degree & Major | Timeline | Location |
+| :--- | :--- | :--- | :--- |
+| **Industrial University of Ho Chi Minh City (IUH)** | Engineer's Degree in Software Engineering | Aug 2022 – Present | Ho Chi Minh City, Vietnam |
 
 ---
 
